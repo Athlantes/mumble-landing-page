@@ -1,5 +1,5 @@
-// Scroll animation for fade-up sections
-const observer = new IntersectionObserver((entries) => {
+document.addEventListener("DOMContentLoaded", () => {
+  const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('reveal');
@@ -9,6 +9,6 @@ const observer = new IntersectionObserver((entries) => {
   }, {
     threshold: 0.1
   });
-  
-  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
-  
+
+  document.querySelectorAll('.fade-up, .fade-in').forEach(el => observer.observe(el));
+});
