@@ -1,1 +1,79 @@
-
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 4rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #fff;
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #e0e0e0;
+  }
+  
+  .features {
+    background: #fff;
+    padding: 3rem 0;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .features ul {
+    list-style: none;
+    font-size: 1.1rem;
+  }
+  
+  .features li {
+    margin: 1rem 0;
+  }
+  
+  .footer {
+    background: #222;
+    color: #aaa;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
